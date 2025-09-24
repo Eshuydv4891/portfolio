@@ -1,63 +1,159 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>my resume</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+	<title>portfolio website</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="shyam.css">
 </head>
 <body>
-	<h2>ESHU YADAV</h2>
-	<hr style="border: 2px solid black;width: 100%;">
-	<p><i class="fa-solid fa-phone"></i> +91 9557716431</p>
-	<p>✉<a href="yadaveshu19@gmail.com">yadaveshu19@gmail.com</a></p>
-	<h2>Career Objective:</h2>
-	<p><b>Motivated and detail-oriented MCA student at KIET Group of institution,seeking opportunities to apply academic learning in real-world projects.<br>Strong foundation in programming web devlopment,and database management with a passion for problem-solving and continuous learning.</b></p>
-	<h2>Education:</h2>
-	<ul><b>
-		<li>Master of computer applications(MCA):KIET Group of Institutions, Maradnagar,Ghaziabad(Pursuing)</li>
-		<li>Bachelor of science(B.sc) in computer science - completed in 2024(78.5%)</li>
-		<li>Class 12<sup>th</sup>- completed in 2021(83.2%)</li>
-		<li>Class 10<sup>th</sup>- completed in 2019(65.3%)</li></b>
-	</ul>
-	<h2>Technical skills:</h2>
-	<ul>
-		<b>
-			<li>Web development:HTML, CSS,Javascript</li>
-			<li>Programming: Python, c language</li>
-			<li>Database: MYSQL,MongoDB</li>
-			<li>Tools: chatgpt, github,ms office,figma, vs code</li>
-		</b>
-	</ul>
-	<h2>Projects:</h2>
-	<ul><b>
-		<li>Doctor Appointment System- Build using Python and MYSQL for managing appointments efficiently.</li>
-		<li>Calories Tracker - Design an application to track daily calories intake using web technologies. </li>
-	</b>
-		
-	</ul>
-	<h2>Internship:</h2>
-	<ul>
-		<b>
-			<li>
-				E-Gain Educator, Agra - completed internship with hands on experience in professional training and development.
-			</li>
-		</b>
-	</ul>
-	<h2>Strenghts:</h2>
-	<ul><b>
-		<li>Ability to work under pressure</li>
-		<li>Fast learner</li>
-		<li>Team Player</li>
-	</b></ul>
-	<h2>Personal Details:</h2>
-	<h3>Date of Birth: 01/01/2003</h3>
-	<h3>Languages known: Hindi, English</h3>
-	<h3>Nationality: Indian</h3>
+	<div id="header">
+		<div class="container">	
+				<img src="logo.jpg" class="logo">
+			<nav>
+				<ul>
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="header-text">
+				<p>Python Developer</p>
+				<h1>Hi, I'm<span> <br>Eshu Yadav </span>
+				
+			</div>
+		</div>	
+	</div>
+
+
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="D:\New folder\ddsa.jpg">
+				</div>
+				<div class="about-col-2">
+				<h1 class="sub-title">About me</h1>
+				<h2>Please excuse my awkward and weird ways… I’m just a guy named #Eshu Yadav#  who likes to make people laugh.</h2>
+					<div class="sub-titles">
 	
+						
+						<h1>Skills<h1>
+						
+						
+					</div>
+					<div class="tab-contents">
+						<ul>
+							<li><span>Python Developer</span></li>
+							<li><span>Web Developer</span></li>
+							<li><span>MySQL</span></li>
+							<li><span>MongoDB</span></li>
+						</ul>
+					
+						
+				
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 	
 
+	<div id="services">
+		<div class="container">
+			<h1 class="sub-title">My Services</h1>
+				<div class="services-list">
+					<div>
+						<i class="fas fa-code"></i>
+						
+						<h2>Web designer</h2>
+						<p>Web design and development are crucial aspects of creating and maintaining websites. A web designer creates the layout and design makes a site look good.</p>
+						<a href="#">learn more</a>
+						
+					</div>
+					<div>
+						<i class="fa-solid fa-chart-simple"></i>
+						<h2>Data Analyst</h2>
+						<p>A Data Analyst's responsibilities include the deep analysis of data and then determining the best way to represent it visually to managers and stakeholders.</p>
+						<a href="#">learn more</a>
+					</div>
+					<div>
+						<i class="fa-solid fa-gear"></i>
+						<h2>Machine Learning</h2>
+						<p>An ML engineer's primary goals are creating machine learning models and retraining systems when needed.</p>
+						<a href="#">learn more</a>
+					</div>
+					
+					
+				</div>	
+		</div>
+	</div>
+
+
+
+
+
+<div id="portfolio">
+		<div class="container">
+			<h1 class="sub-title">My Work</h1>
+			<div class="work-list">
+				<div class="work">
+				 <img src="w3.jpg">
+				 <div class="layer">
+				 	<h3>DOCTOR'S APPOINMENT SYSTEM</h3>
+				 		<a>This is made made generally for doing the work of simple peasont ans doctor also.</a>
+				 		<a href="C:/Users/Arvind Kumar/.spyder-py3/dasprojectmainscreen.py"> read more<a>
+				 </div>
+			    </div>
+			    <div class="work">
+				 <img src="w2.jpg">
+			    </div>
+			    
+				
+			</div>
+
+		</div>
+</div>	
+
+
+
+
+
+<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title"> Contact Me</h1>
+					<p><i class="fa-solid fa-message"></i>  yadaveshu19@gmail.com</p>
+					<p><i class="fa-solid fa-phone"></i>    9557716431</p>
+					<div class="social-icons"> 
+						<a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+						<a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i>
+						<a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i>
+						<a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i>
+					</div>
+					<a href="file:///D:/New%20folder/eshuresume.html" class="btn btn2"> Download Resume/CV</a>
+				</div>
+				    <div class="contact-right">
+					    <form>
+							<input type="text" name="Name" placeholder="your name" required>
+							<input type="email" name="Name" placeholder="your email" required>
+							<textarea name="message" row="6"placeholder="your message"></textarea>
+							<button type="submit" class="btn btn2">submit</button>
+						</form>
+					
+			     
+	                 </div>
+              
+
+
+            </div>
+        </div>
+    
+</div>
 </body>
 </html>
